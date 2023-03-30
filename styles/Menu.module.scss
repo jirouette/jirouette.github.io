@@ -1,0 +1,36 @@
+.menu {
+
+    a {
+        font-family: 'Mono';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+        
+        color: #D9D9D9;
+        text-decoration: none;
+    }
+
+    a:hover, a:active {
+        text-decoration: underline;
+    }
+
+    a[data-emoji]::before {
+        content: attr(data-emoji);
+        display: inline-block;
+        text-decoration: none;
+        padding-right: 10px;
+    }
+
+    li {
+        list-style: none;
+    }
+}
+
+.links li {
+    padding-bottom: 32px;
+}
+
+.externs li {
+    padding-bottom: 16px;
+}

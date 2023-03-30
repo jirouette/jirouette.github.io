@@ -1,0 +1,63 @@
+.jobBlock {
+    display: flex;
+    flex-direction: row-reverse;
+
+    header {
+        h3 {
+            font-family: 'Mono';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 21px;
+            margin-bottom: 3px;
+            
+            color: #D9D9D9;
+        }
+
+        em {
+            font-style: italic;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 15px;
+            
+            color: #D9D9D9;
+        }
+    }
+
+    footer {
+        margin-top: 24px;
+
+        a {
+            font-family: 'Mono';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 16px;
+            text-decoration: none;
+            
+            color: #D9D9D9;
+        }
+    
+        a:hover, a:active {
+            text-decoration: underline;
+        }
+    }
+    
+    article {
+        background: #1C1E31;
+        margin: 10px;
+        padding: 24px 40px 24px 40px;
+
+        p strong {
+            color: #F95A55;
+        }
+    }
+
+    figure {
+        margin: 10px;
+    }
+}
+
+.jobBlock:nth-child(even) {
+    flex-direction: row;
+}
