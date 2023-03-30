@@ -11,7 +11,7 @@ export default function Home() {
         <title>{content.title}</title>
         <link rel="icon" href="/favicon.ico" />
         {Object.keys(content.meta).map((key, _) => {
-          return <meta name={key} content={content.meta[key]} />;
+          return <meta key={key} name={key} content={content.meta[key]} />;
         })}
       </Head>
 

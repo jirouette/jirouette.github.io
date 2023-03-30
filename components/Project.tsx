@@ -29,7 +29,6 @@ export interface ProjectProps {
     title: string;
     links: Array<Link>;
     description: string;
-    picture: string;
     embed: EmbedData;
 }
 
