@@ -37,7 +37,7 @@ function Image({ url, alt }: ImageData) {
 }
 
 function Iframe({ url }: IframeData) {
-    return <iframe src={url} />;
+    return <div className={styles.iframe}><iframe src={url} /></div>;
 }
 
 function Text({ text }: TextData) {

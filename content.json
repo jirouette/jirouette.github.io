@@ -85,12 +85,11 @@
                 {"url": "https://github.com/jirouette/bacteria", "label": "GitHub"},
                 {"url": "/", "label": "Démo"}
               ],
-              "description": "Jeu de plateau à 2 joueurs, issu d'une mission réalisée pour un client en 2011. Le principe est d'engrenger plus de pions que l'adversaire, en phagocytant les siens. Les assets graphiques proviennent du client. ",
+              "description": "Jeu de plateau à 2 joueurs, issu d'une mission réalisée pour un client en 2011. Le principe est d'engrenger plus de pions que l'adversaire, en phagocytant les siens. Les assets graphiques proviennent du client. \n\nUne bactérie (le pion) peut se multiplier d'une case dans toutes les directions, ou sauter sur une case distante de 2 tuiles horizontalement ou verticalement. Si la bactérie rencontre une ou plusieurs bactéries adverses à son arrivée, elles sont transformées.\n\nCette démo contient un mode jeu en ligne",
               "embed": {
-                "type": "picture",
+                "type": "iframe",
                 "data": {
-                    "url": "bacteria.png",
-                    "alt": "Bacteria est un jeu de plateau à 2 joueurs"
+                    "url": "https://bacteria.jr.software/iframe/200213003"
                 }
               }
             },
