@@ -43,7 +43,7 @@
         "anchor": "about",
         "type": "about",
         "data": {
-          "description": "Short description -- Cat ipsum dolor sit amet, adipisci but nesciunt. Molestiae aute. Fugit dolor so non sit. Commodo quam velitesse. Natus minim. Magni ut but nemo yet ullamco or amet\n\nCat ipsum dolor sit amet, adipisci but nesciunt. Molestiae aute. Fugit dolor so non sit.\nCat ipsum dolor sit amet, adipisci but nesciunt. Cat ipsum dolor sit amet, adipisci but nesciunt.\n          Cat ipsum dolor sit amet, adipisci but nesciunt.Cat ipsum dolor sit amet, adipisci but nesciunt. Molestiae aute. Fugit dolor so non sit."
+          "description": "Passionné par le **dev** depuis mon adolescence, j'ai travaillé sur de nombreuses applications, professionnellement ou personnellement. J'ai notamment pu gérer le projet technologique de **Freshmile** qui mènera à en faire un acteur majeur du marché de la mobilité électrique aujourd'hui. \n\nAprès presque 10ans sur ce projet, je m'installe sur Lyon à la recherche de nouveaux projets. "
         }
       },
       {
@@ -74,7 +74,7 @@
         }
       },
       {
-        "title": "Mes projets personnels 🎈",
+        "title": "Quelques projets personnels 🎈",
         "anchor": "perso",
         "type": "perso",
         "data": {
@@ -83,9 +83,9 @@
               "title": "Bacteria 🦠",
               "links": [
                 {"url": "https://github.com/jirouette/bacteria", "label": "GitHub"},
-                {"url": "/", "label": "Démo"}
+                {"url": "https://bacteria.jr.software/", "label": "Démo"}
               ],
-              "description": "Jeu de plateau à 2 joueurs, issu d'une mission réalisée pour un client en 2011. Le principe est d'engrenger plus de pions que l'adversaire, en phagocytant les siens. Les assets graphiques proviennent du client. \n\nUne bactérie (le pion) peut se multiplier d'une case dans toutes les directions, ou sauter sur une case distante de 2 tuiles horizontalement ou verticalement. Si la bactérie rencontre une ou plusieurs bactéries adverses à son arrivée, elles sont transformées.\n\nCette démo contient un mode jeu en ligne",
+              "description": "**Jeu** de plateau à 2 joueurs, issu d'une mission réalisée pour un client en 2011. Le principe est d'engrenger plus de pions que l'adversaire, en phagocytant les siens. Les assets graphiques proviennent du client. \n\nUne bactérie (le pion) peut se multiplier d'une case dans toutes les directions, ou sauter sur une case distante de 2 tuiles horizontalement ou verticalement. Si la bactérie rencontre une ou plusieurs bactéries adverses à son arrivée, elles sont transformées.\n\nCette **démo** contient un mode jeu en ligne",
               "embed": {
                 "type": "iframe",
                 "data": {
@@ -96,7 +96,7 @@
             {
               "title": "Pichu 🔌",
               "links": [{"url": "https://github.com/jirouette/pichu", "label": "GitHub"}],
-              "description": "Simulateur de borne de recharge pour véhicule électrique, en Python. Inspiré de mon expérience au sein de Freshmile, le but est ici de simuler les intéractions qu'une borne peut avoir avec un superviseur de bornes de recharge (CPO) et un utilisateur de véhicule électrique. Peut servir de prototypage pour vérifier le bon fonctionnement de son système de supervision. ",
+              "description": "**Simulateur** de borne de recharge pour véhicule électrique. Inspiré de mon expérience au sein de **Freshmile**, le but est ici de simuler les interactions qu'une borne peut avoir avec un superviseur de bornes de recharge (CPO) et un utilisateur de véhicule électrique. Peut servir de prototypage pour vérifier le bon fonctionnement de son système de supervision. ",
               "embed": {
                 "type": "text",
                 "data": {
