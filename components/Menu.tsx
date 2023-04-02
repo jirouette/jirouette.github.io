@@ -1,6 +1,7 @@
 import React from "react";
 import Title from "./Title";
 import styles from "../styles/Menu.module.scss";
+import roboto_mono from "./font";
 
 interface Link {
     url: string;
@@ -27,7 +28,7 @@ function LinkWithEmoji({ url, label }: Link) {
 
 export default function Menu({me, links, externs}: Props) {
     return (
-        <nav className={styles.menu}>
+        <nav className={`${styles.menu} ${roboto_mono.className}`}>
             <Title {...me} />
             <menu className={styles.links}>
                 {links.map((link, _) => {

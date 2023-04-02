@@ -3,6 +3,9 @@ import styles from '../styles/Home.module.scss';
 import Menu from '../components/Menu';
 import Section from '../components/Section';
 import content from '../content.json';
+import { Inter } from 'next/font/google';
+
+const inter = Inter({ subsets: ['latin'], weight: ['400', '700'], style: ['normal']})
 
 export default function Home() {
   return (
@@ -30,9 +33,7 @@ export default function Home() {
         body {
           padding: 0;
           margin: 0;
-          font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-            Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
-            sans-serif;
+          font-family: ${inter.style.fontFamily};
             background-color: #141627;
             color: #d9d9d9;
         }

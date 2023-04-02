@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "../styles/Job.module.scss";
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
+import roboto_mono from "./font";
 
 export interface JobProps {
     title: string;
@@ -20,14 +21,14 @@ export default function Job({title, company, duration, url, label, description, 
             </figure>
             <article>
                 <header>
-                    <h3>{title}</h3>
+                    <h3 className={roboto_mono.className}>{title}</h3>
                     <em>{company}, {duration}</em>
                 </header>
 
                 <ReactMarkdown>{description}</ReactMarkdown>
 
                 <footer>
-                    <a href={url}>{label}</a>
+                    <a className={roboto_mono.className} href={url}>{label}</a>
                 </footer>
             </article>
         </article>

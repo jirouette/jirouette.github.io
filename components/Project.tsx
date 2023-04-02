@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "../styles/Project.module.scss";
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
+import roboto_mono from "./font";
 
 interface Link {
     url: string;
@@ -62,13 +63,13 @@ export default function Project({title, links, description, embed}: ProjectProps
             <figure>{embedChild}</figure>
             <article>
                 <header>
-                    <h3>{title}</h3>
+                    <h3 className={roboto_mono.className}>{title}</h3>
                 </header>
 
                 <ReactMarkdown>{description}</ReactMarkdown>
 
                 <footer>
-                    <menu>
+                    <menu className={roboto_mono.className}>
                         {links.map((link, _) => {
                             return <li key={link.label}><a href={link.url}>{link.label}</a></li>
                         })}
