@@ -19,3 +19,20 @@
     margin-right: 120px;
   }
 }
+
+@media (max-width: 1216px) {
+  .portfolio {
+    flex-direction: column;
+
+    aside {
+      margin-top: 70px;
+      position: initial;
+      align-self: center;
+    }
+
+    main {
+      margin-right: 0;
+      padding: 25px;
+    }
+  }
+}

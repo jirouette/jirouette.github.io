@@ -2,6 +2,7 @@ import React from "react";
 import Title from "./Title";
 import styles from "../styles/Menu.module.scss";
 import roboto_mono from "./font";
+import { Link as Scroll } from 'react-scroll';
 
 interface Link {
     url: string;
@@ -32,7 +33,7 @@ export default function Menu({me, links, externs}: Props) {
             <Title {...me} />
             <menu className={styles.links}>
                 {links.map((link, _) => {
-                    return <li key={link.label}><a href={link.url}>{link.label}</a></li>;
+                    return <li key={link.label}><Scroll to={link.url} smooth={true} duration={500}>{link.label}</Scroll></li>;
                 })}
             </menu>
 

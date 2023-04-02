@@ -12,6 +12,7 @@
 
     a:hover, a:active {
         text-decoration: underline;
+        cursor: pointer;
     }
 
     a[data-emoji]::before {

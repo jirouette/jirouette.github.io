@@ -9,7 +9,7 @@ interface Props {
 export default function Title({name, title}: Props) {
     return (
         <div className={styles.title}>
-            <img src="avatar.png" alt={name} />
+            <div><img src="avatar.png" alt={name} /></div>
             <h1>{name}</h1>
             <em>{title}</em>
         </div>

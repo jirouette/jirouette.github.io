@@ -59,3 +59,17 @@
 .jobBlock:nth-child(even) {
     flex-direction: row;
 }
+
+@media (max-width: 1023px) {
+    .jobBlock, .jobBlock:nth-child(even) {
+        flex-direction: column;
+        align-self: center;
+        margin-bottom: 50px;
+    }
+
+    .jobBlock {
+        figure {
+            align-self: center;
+        }
+    }
+}

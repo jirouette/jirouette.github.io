@@ -33,3 +33,14 @@
         color: #F95A55;
     }
 }
+
+@media (max-width: 1023px) {
+    .title {
+        div {
+            text-align: center;
+        }
+        img {
+            margin-left: 0;
+        }
+    }
+}

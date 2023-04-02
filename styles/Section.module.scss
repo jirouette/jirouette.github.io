@@ -10,3 +10,10 @@
         color: #F95A55;
     }
 }
+
+@media (max-width: 1023px) {
+    .section h2 {
+        text-align: center;
+        font-size: 18px;
+    }
+}

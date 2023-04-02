@@ -26,9 +26,9 @@
         "title": "développeur"
       },
       "links": [
-        {"url": "#about", "label": "À propos"},
-        {"url": "#pro", "label": "Expériences pro"},
-        {"url": "#perso", "label": "Projets perso"}
+        {"url": "about", "label": "À propos"},
+        {"url": "pro", "label": "Expériences pro"},
+        {"url": "perso", "label": "Projets perso"}
       ],
       "externs": [
         {"url": "/CV/CV-jean-remy-oudin.pdf", "label": "📝 Télécharger mon CV"},
