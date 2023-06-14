@@ -54,6 +54,15 @@
           "jobs": [
             {
               "title": "Directeur technique",
+              "company": "🏗 Eiffage Énergie Systèmes",
+              "duration": "2023 - en cours",
+              "url": "https://www.eiffageenergiesystemes.com/",
+              "label": "eiffageenergiesystemes.com",
+              "description": "(À venir)",
+              "picture": "eiffage.png"
+            },
+            {
+              "title": "Directeur technique",
               "company": "⚡️ Freshmile",
               "duration": "2013-2022",
               "url": "https://www.freshmile.com/",
@@ -64,7 +73,7 @@
             {
               "title": "Gamedev freelance",
               "company": "🎮 Chapatiz",
-              "duration": "2013-2022",
+              "duration": "2011-2013",
               "url": "https://www.chapatiz.com/",
               "label": "chapatiz.com",
               "description": "Site de jeu & discussion en ligne pour adolescents, j'ai conçu en tant que **développeur freelance** plusieurs jeux pour ce client, dont Bacteria. À partir d'assets fournis, je devais intégrer à l'applicatif serveur ainsi qu'au client web (Flash) des fonctionnalités. Allant du jeu de plateau au jeu en équipe, un système de match-making, et d'autres améliorations.",
