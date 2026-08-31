@@ -1,120 +1,137 @@
 {
-    "title": "jr − Jean-Rémy OUDIN, Développeur",
-    "meta": {
-        "description": "Développeur, ancien CTO de Freshmile et gamedev. J'aime aussi les canards. 🦆",
-        "author": "Jean-Rémy OUDIN",
-        "twitter:card": "app",
-        "twitter:site": "@jroudin",
-        "twitter:description": "Développeur, ancien CTO de Freshmile et gamedev. J'aime aussi les canards. 🦆",
-        "twitter:app:country": "FR",
-        "twitter:image": "avatar.png",
-        "twitter:image:alt": "Jean-Rémy OUDIN",
-        "og:title": "jr − Jean-Rémy OUDIN, Développeur",
-        "og:type": "profile",
-        "profile:first_name": "Jean-Rémy",
-        "profile:last_name": "Oudin",
-        "profile:gender": "male",
-        "profile:username": "jr",
-        "og:image": "avatar.png",
-        "og:url": "TODO",
-        "og:description": "Développeur, ancien CTO de Freshmile et gamedev. J'aime aussi les canards. 🦆",
-        "og:locale": "fr_FR"
+  "title": "jr − Jean-Rémy OUDIN, Développeur",
+  "meta": {
+    "description": "Développeur et expert IRVE. J'aime aussi les canards. 🦆",
+    "author": "Jean-Rémy OUDIN",
+    "twitter:card": "app",
+    "twitter:site": "@jroudin",
+    "twitter:description": "Développeur et expert IRVE. J'aime aussi les canards. 🦆",
+    "twitter:app:country": "FR",
+    "twitter:image": "avatar.png",
+    "twitter:image:alt": "Jean-Rémy OUDIN",
+    "og:title": "jr − Jean-Rémy OUDIN, Développeur",
+    "og:type": "profile",
+    "profile:first_name": "Jean-Rémy",
+    "profile:last_name": "Oudin",
+    "profile:gender": "male",
+    "profile:username": "jr",
+    "og:image": "avatar.png",
+    "og:url": "TODO",
+    "og:description": "Développeuret  expert IRVE. J'aime aussi les canards. 🦆",
+    "og:locale": "fr_FR"
+  },
+  "menu": {
+    "me": {
+      "name": "Jean-Rémy OUDIN",
+      "title": "développeur"
     },
-    "menu": {
-      "me": {
-        "name": "Jean-Rémy OUDIN",
-        "title": "développeur"
-      },
-      "links": [
-        {"url": "about", "label": "À propos"},
-        {"url": "pro", "label": "Expériences pro"},
-        {"url": "perso", "label": "Projets perso"}
-      ],
-      "externs": [
-        {"url": "/CV/CV-jean-remy-oudin.pdf", "label": "📝 Télécharger mon CV"},
-        {"url": "https://github.com/jirouette", "label": "🖥 GitHub"},
-        {"url": "https://www.linkedin.com/in/jean-r%C3%A9my-oudin/", "label": "🔗 Linkedin"},
-        {"url": "https://instagram.com/jirouette_coin", "label": "🦆 Instagram"}
-      ]
-    },
-    "sections": [
+    "links": [
+      { "url": "about", "label": "À propos" },
+      { "url": "pro", "label": "Expériences pro" },
+      { "url": "perso", "label": "Projets perso" }
+    ],
+    "externs": [
+      { "url": "/CV/CV-jean-remy-oudin.pdf", "label": "📝 Télécharger mon CV" },
+      { "url": "https://github.com/jirouette", "label": "🖥 GitHub" },
       {
-        "title": "À propos de moi 🦆",
-        "anchor": "about",
-        "type": "about",
-        "data": {
-          "description": "Passionné par le **dev** depuis mon adolescence, j'ai travaillé sur de nombreuses applications, professionnellement ou personnellement. J'ai notamment pu gérer le projet technologique de **Freshmile** qui mènera à en faire un acteur majeur du marché de la mobilité électrique aujourd'hui. \n\nAprès presque 10ans sur ce projet, je m'installe sur Lyon à la recherche de nouveaux projets. "
-        }
+        "url": "https://www.linkedin.com/in/jean-r%C3%A9my-oudin/",
+        "label": "🔗 Linkedin"
       },
-      {
-        "title": "Mes expériences professionnelles 💻",
-        "anchor": "pro",
-        "type": "pro",
-        "data": {
-          "jobs": [
-            {
-              "title": "Directeur technique",
-              "company": "🏗 Eiffage Énergie Systèmes",
-              "duration": "2023 - en cours",
-              "url": "https://www.eiffageenergiesystemes.com/",
-              "label": "eiffageenergiesystemes.com",
-              "description": "(À venir)",
-              "picture": "eiffage.png"
-            },
-            {
-              "title": "Directeur technique",
-              "company": "⚡️ Freshmile",
-              "duration": "2013-2022",
-              "url": "https://www.freshmile.com/",
-              "label": "freshmile.com",
-              "description": "Freshmile est une société de supervision de bornes de recharge pour véhicules électrique, à destination des professionnels et institutions. Elle propose également des solutions pour les utilisateurs avec un espace compte, une carte des points de charge, et une application mobile. \n\nD'abord en tant qu’unique **développeur**, puis en tant que **directeur technique**, j'ai eu pour mission avec mon équipe de concevoir le projet technologique de A à Z. Du système IoT capable de connecter des dizaines de milliers de points de charge, à la plateforme de supervision B2B, jusqu'aux applications B2C.",
-              "picture": "freshmile.png"
-            },
-            {
-              "title": "Gamedev freelance",
-              "company": "🎮 Chapatiz",
-              "duration": "2011-2013",
-              "url": "https://www.chapatiz.com/",
-              "label": "chapatiz.com",
-              "description": "Site de jeu & discussion en ligne pour adolescents, j'ai conçu en tant que **développeur freelance** plusieurs jeux pour ce client, dont Bacteria. À partir d'assets fournis, je devais intégrer à l'applicatif serveur ainsi qu'au client web (Flash) des fonctionnalités. Allant du jeu de plateau au jeu en équipe, un système de match-making, et d'autres améliorations.",
-              "picture": "chapatiz.png"
-            }
-          ]
-        }
-      },
-      {
-        "title": "Quelques projets personnels 🎈",
-        "anchor": "perso",
-        "type": "perso",
-        "data": {
-          "projects": [
-            {
-              "title": "Bacteria 🦠",
-              "links": [
-                {"url": "https://github.com/jirouette/bacteria", "label": "GitHub"},
-                {"url": "https://bacteria.jr.software/", "label": "Démo"}
-              ],
-              "description": "**Jeu** de plateau à 2 joueurs, issu d'une mission réalisée pour un client en 2011. Le principe est d'engrenger plus de pions que l'adversaire, en phagocytant les siens. Les assets graphiques proviennent du client. \n\nUne bactérie (le pion) peut se multiplier d'une case dans toutes les directions, ou sauter sur une case distante de 2 tuiles horizontalement ou verticalement. Si la bactérie rencontre une ou plusieurs bactéries adverses à son arrivée, elles sont transformées.\n\nCette **démo** contient un mode jeu en ligne",
-              "embed": {
-                "type": "iframe",
-                "data": {
-                    "url": "https://bacteria.jr.software/iframe/200213003"
-                }
-              }
-            },
-            {
-              "title": "Pichu 🔌",
-              "links": [{"url": "https://github.com/jirouette/pichu", "label": "GitHub"}],
-              "description": "**Simulateur** de borne de recharge pour véhicule électrique. Inspiré de mon expérience au sein de **Freshmile**, le but est ici de simuler les interactions qu'une borne peut avoir avec un superviseur de bornes de recharge (CPO) et un utilisateur de véhicule électrique. Peut servir de prototypage pour vérifier le bon fonctionnement de son système de supervision. ",
-              "embed": {
-                "type": "text",
-                "data": {
-                    "text": "(bientôt)"
-                }
-              }
-            }
-          ]
-        }
-      }
+      { "url": "https://instagram.com/jirouette_coin", "label": "🦆 Instagram" }
     ]
+  },
+  "sections": [
+    {
+      "title": "À propos de moi 🦆",
+      "anchor": "about",
+      "type": "about",
+      "data": {
+        "description": "Passionné par le **dev** depuis mon adolescence, j'ai travaillé sur de nombreuses applications, professionnellement ou personnellement. J'ai notamment pu gérer le projet technologique de **Freshmile** qui mènera à en faire un acteur majeur du marché de la mobilité électrique aujourd'hui. Fort de cette expérience, j'ai pu accompagner **Eiffage Énergie Systèmes** dans son propre projet IRVE, avant de rejoindre **CO-OP ev**. "
+      }
+    },
+    {
+      "title": "Mes expériences professionnelles 💻",
+      "anchor": "pro",
+      "type": "pro",
+      "data": {
+        "jobs": [
+          {
+            "title": "Directeur technique",
+            "company": "🌍 CO-OP ev",
+            "duration": "2026-présent",
+            "url": "https://coop-ev.com/",
+            "label": "coop-ev.com",
+            "description": "*(À venir)*",
+            "picture": "coopev.png"
+          },
+          {
+            "title": "Directeur technique IRVE",
+            "company": "🏗 Eiffage Énergie Systèmes",
+            "duration": "2023-2026",
+            "url": "https://www.eiffageenergiesystemes.com/",
+            "label": "eiffageenergiesystemes.com",
+            "description": "Reprise du projet de supervision de bornes de recharge pour véhicules électriques *We-Go* de la direction régionale est d'Eiffage Énergie Systèmes. En tant que **directeur technique**, j'ai eu pour mission de mener à bien la refonte technologique de ce projet, en assurant la transition vers une architecture plus moderne, évolutive et robuste.",
+            "picture": "ees.jpg"
+          },
+          {
+            "title": "Directeur technique",
+            "company": "⚡️ Freshmile",
+            "duration": "2013-2022",
+            "url": "https://www.freshmile.com/",
+            "label": "freshmile.com",
+            "description": "Freshmile est une société de supervision de bornes de recharge pour véhicules électrique, à destination des professionnels et institutions. Elle propose également des solutions pour les utilisateurs avec un espace compte, une carte des points de charge, et une application mobile. \n\nD'abord en tant qu’unique **développeur**, puis en tant que **directeur technique**, j'ai eu pour mission avec mon équipe de concevoir le projet technologique de A à Z. Du système IoT capable de connecter des dizaines de milliers de points de charge, à la plateforme de supervision B2B, jusqu'aux applications B2C.",
+            "picture": "freshmile.png"
+          },
+          {
+            "title": "Gamedev freelance",
+            "company": "🎮 Chapatiz",
+            "duration": "2011-2013",
+            "url": "https://www.chapatiz.com/",
+            "label": "chapatiz.com",
+            "description": "Site de jeux & discussions en ligne pour adolescents, j'ai conçu en tant que **développeur freelance** plusieurs jeux pour ce client, dont Bacteria. À partir d'assets fournis, je devais intégrer à l'applicatif serveur ainsi qu'au client web (Flash) des fonctionnalités. Allant du jeu de plateau au jeu en équipe, un système de match-making, et d'autres améliorations.",
+            "picture": "chapatiz.png"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Quelques projets personnels 🎈",
+      "anchor": "perso",
+      "type": "perso",
+      "data": {
+        "projects": [
+          {
+            "title": "Bacteria 🦠",
+            "links": [
+              {
+                "url": "https://github.com/jirouette/bacteria",
+                "label": "GitHub"
+              },
+              { "url": "https://bacteria.jr.software/", "label": "Démo" }
+            ],
+            "description": "**Jeu** de plateau à 2 joueurs, issu d'une mission réalisée pour un client en 2011. Le principe est d'engrenger plus de pions que l'adversaire, en phagocytant les siens. Les assets graphiques proviennent du client. \n\nUne bactérie (le pion) peut se multiplier d'une case dans toutes les directions, ou sauter sur une case distante de 2 tuiles horizontalement ou verticalement. Si la bactérie rencontre une ou plusieurs bactéries adverses à son arrivée, elles sont transformées.\n\nCette **démo** contient un mode jeu en ligne",
+            "embed": {
+              "type": "iframe",
+              "data": {
+                "url": "https://bacteria.jr.software/iframe/200213003"
+              }
+            }
+          },
+          {
+            "title": "Pichu 🔌",
+            "links": [
+              { "url": "https://github.com/jirouette/pichu", "label": "GitHub" }
+            ],
+            "description": "**Simulateur** de borne de recharge pour véhicule électrique. Inspiré de mon expérience au sein de **Freshmile**, le but est ici de simuler les interactions qu'une borne peut avoir avec un superviseur de bornes de recharge (CPO) et un utilisateur de véhicule électrique. Peut servir de prototypage pour vérifier le bon fonctionnement de son système de supervision. ",
+            "embed": {
+              "type": "text",
+              "data": {
+                "text": "(bientôt)"
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
 }

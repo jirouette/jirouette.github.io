@@ -1,16 +1,21 @@
-import Head from 'next/head';
-import styles from '../styles/Home.module.scss';
-import Menu from '../components/Menu';
-import Section from '../components/Section';
-import content from '../content.json';
-import { Inter } from 'next/font/google';
+import Head from "next/head";
+import styles from "../styles/Home.module.scss";
+import Menu from "../components/Menu";
+import Section, { SectionProps } from "../components/Section";
+import content from "../content.json";
+import { Inter } from "next/font/google";
 
-const inter = Inter({ subsets: ['latin'], weight: ['400', '700'], style: ['normal']})
+const inter = Inter({
+  subsets: ["latin"],
+  weight: ["400", "700"],
+  style: ["normal"],
+});
 
 export default function Home() {
   return (
     <div className={styles.portfolio}>
       <Head>
+        <html lang="fr" />
         <title>{content.title}</title>
         <link rel="icon" href="/favicon.ico" />
         {Object.keys(content.meta).map((key, _) => {
@@ -24,7 +29,9 @@ export default function Home() {
 
       <main>
         {content.sections.map((section, _) => {
-          return <Section key={section.anchor} {...section} />;
+          return (
+            <Section key={section.anchor} {...(section as SectionProps)} />
+          );
         })}
       </main>
 
@@ -34,10 +41,10 @@ export default function Home() {
           padding: 0;
           margin: 0;
           font-family: ${inter.style.fontFamily};
-            background-color: #141627;
-            color: #d9d9d9;
+          background-color: #141627;
+          color: #d9d9d9;
         }
       `}</style>
     </div>
-  )
+  );
 }
